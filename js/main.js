@@ -1857,9 +1857,11 @@ $scope.VarToFile($App.Title12b," Repetitions.text");};
 NeoApp.controller("Thoughts_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 13;
 $App.NAB.PageID = "Thoughts";
-$scope.TextArea126_change = function() {localStorage.setItem("thoughts","thoughts");};
+$scope.TextArea126_change = function() {localStorage.setItem("thoughts",$App.thoughts);};
 $scope.PushButton176_click = function() {$scope.GotoPage( "Home" );};
 $scope.PushButton175_click = function() {$scope.GotoPage( "Home" );};
+$scope.PushButton231_click = function() {neoTalkSpeak($App.Prayer1main, "uk", 1, .9);};
+$scope.PushButton287_click = function() {neoTalkCancelSpeech();};
 });
 NeoApp.controller("Page02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 14;

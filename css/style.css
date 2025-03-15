@@ -636,7 +636,10 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #TextArea126 {position:absolute;left:23px;top:93px;width:366px;height:1750px;margin:0;color:#000080;font-size:12pt;font-weight:800;padding-bottom:10px;padding-left:10px;padding-right:10px;padding-top:10px;opacity:0.41}
 #PushButton176 {position:absolute;left:282px;top:7px;width:104px;height:48px;margin:0;opacity:0.42}
 #Headline279 {position:absolute;left:20px;top:58px;width:367px;height:33px;margin:0;color:white;font-family:Arial,Helvetica,sans-serif;font-size:14pt;font-weight:800;text-align:center;text-shadow:0px 0px 5px black}
-#PushButton175 {position:absolute;left:158px;top:1848px;width:104px;height:48px;margin:0;opacity:0.42}
+#PushButton175 {position:absolute;left:53px;top:1846px;width:104px;height:48px;margin:0;opacity:0.42}
+#Headline284 {position:absolute;left:17px;top:13px;width:257px;height:38px;margin:0;color:white;font-size:11pt}
+#PushButton231 {position:absolute;left:226px;top:1857px;width:138px;height:33px;margin:0;color:green;font-weight:800}
+#PushButton287 {position:absolute;left:183px;top:1857px;width:39px;height:33px;margin:0;color:red;font-size:12pt;font-weight:800}
 #Page02 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image35 {position:absolute;left:22px;top:17px;width:256px;height:77px;margin:0;}
 #Headline326 {position:absolute;left:28px;top:36px;width:237px;height:39px;margin:0;color:#FFFF00;font-size:24pt;font-style:italic;font-weight:600;text-align:center;text-shadow:2px 2px 5px blue}
