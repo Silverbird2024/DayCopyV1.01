@@ -12,7 +12,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-title" content="Untitled Application" />
 <meta name="generator" content="VisualNEO Web (24.05.22)" />
-<meta name="date" content="2025-03-20 14:43" />
+<meta name="date" content="2025-03-20 15:32" />
 <meta name="version" content="1.0" />
 <meta name="copyright" content="Copyright 2025 Author name" />
 <link rel="apple-touch-icon" href="img/default-icon.png" />
@@ -30,7 +30,7 @@
 <h1 id="Headline260" class="[NAB.Headline260_effect]" ng-style="NAB.Headline260_style" ng-hide="NAB.Headline260_hidden" ng-disabled="NAB.Headline260_disabled"><strong><em>This is Real:&nbsp;[start]</em></strong>- [NAB.DateShort]</h1>
 <button id="PushButton1" type="button"  class="btn btn-default [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()">Main Board</button>
 <button id="PushButton58" type="button"  class="btn btn-default [NAB.PushButton58_effect]" ng-style="NAB.PushButton58_style" ng-hide="NAB.PushButton58_hidden" ng-disabled="NAB.PushButton58_disabled" ng-click="PushButton58_click()">Update now<br></button>
-<h1 id="Headline57" class="[NAB.Headline57_effect]" ng-style="NAB.Headline57_style" ng-hide="NAB.Headline57_hidden" ng-disabled="NAB.Headline57_disabled">V1:&nbsp;06<sup>&nbsp;<sub>&nbsp;20&nbsp;Mar 25</sub></sup><br><br><em>Days and Counting: [diff]</em><br><br></h1>
+<h1 id="Headline57" class="[NAB.Headline57_effect]" ng-style="NAB.Headline57_style" ng-hide="NAB.Headline57_hidden" ng-disabled="NAB.Headline57_disabled">V1:&nbsp;08<sup>&nbsp;<sub>&nbsp;20&nbsp;Mar 25</sub></sup><br><br><em>Days and Counting: [diff]</em><br><br></h1>
 <button id="PushButton274" type="button"  class="btn btn-default [NAB.PushButton274_effect]" ng-style="NAB.PushButton274_style" ng-hide="NAB.PushButton274_hidden" ng-disabled="NAB.PushButton274_disabled" ng-click="PushButton274_click()">Daily Sheet</button>
 <button id="PushButton219" type="button"  class="btn btn-default [NAB.PushButton219_effect]" ng-style="NAB.PushButton219_style" ng-hide="NAB.PushButton219_hidden" ng-disabled="NAB.PushButton219_disabled" ng-click="PushButton219_click()">Save</button>
 <h1 id="Headline254" class="[NAB.Headline254_effect]" ng-style="NAB.Headline254_style" ng-hide="NAB.Headline254_hidden" ng-disabled="NAB.Headline254_disabled" ng-click="Headline254_click()">D</h1>
@@ -39,6 +39,9 @@
 <button id="PushButton173" type="button"  class="btn btn-default [NAB.PushButton173_effect]" ng-style="NAB.PushButton173_style" ng-hide="NAB.PushButton173_hidden" ng-disabled="NAB.PushButton173_disabled" ng-click="PushButton173_click()">Daily Reps</button>
 <button id="PushButton174" type="button"  class="btn btn-default [NAB.PushButton174_effect]" ng-style="NAB.PushButton174_style" ng-hide="NAB.PushButton174_hidden" ng-disabled="NAB.PushButton174_disabled" ng-click="PushButton174_click()">Daily Thoughts</button>
 <img id="Image50" alt="" ng-src="img/Daily blue.jpg" class="[NAB.Image50_effect]" ng-style="NAB.Image50_style" ng-hide="NAB.Image50_hidden" ng-disabled="NAB.Image50_disabled">
+<input id="NumericInput1" type="number" class="form-control [NAB.NumericInput1_effect]" ng-style="NAB.NumericInput1_style" ng-hide="NAB.NumericInput1_hidden" ng-disabled="NAB.NumericInput1_disabled" ng-model="$root.pass" onkeypress="return inputNum(this,event)" onpaste="return pasteNum()">
+<div id="Container28" class="[NAB.Container28_effect]" ng-style="NAB.Container28_style" ng-hide="NAB.Container28_hidden" ng-disabled="NAB.Container28_disabled" ng-click="Container28_click()">
+</div>
 </div>
 </script>
 <script type="text/ng-template" id="MainBoard">
@@ -525,6 +528,18 @@
 <h1 id="Headline284" class="[NAB.Headline284_effect]" ng-style="NAB.Headline284_style" ng-hide="NAB.Headline284_hidden" ng-disabled="NAB.Headline284_disabled">[thoughts]</h1>
 <button id="PushButton231" type="button"  class="btn btn-default [NAB.PushButton231_effect]" ng-style="NAB.PushButton231_style" ng-hide="NAB.PushButton231_hidden" ng-disabled="NAB.PushButton231_disabled" ng-click="PushButton231_click()">Read:</button>
 <button id="PushButton287" type="button"  class="btn btn-default [NAB.PushButton287_effect]" ng-style="NAB.PushButton287_style" ng-hide="NAB.PushButton287_hidden" ng-disabled="NAB.PushButton287_disabled" ng-click="PushButton287_click()">X</button>
+</div>
+</script>
+<script type="text/ng-template" id="NeedsAttention">
+<div class="neopage" id="NeedsAttention">
+<textarea id="TextArea91" class="form-control [NAB.TextArea91_effect]" ng-style="NAB.TextArea91_style" ng-hide="NAB.TextArea91_hidden" ng-disabled="NAB.TextArea91_disabled" ng-model="$root.na1" placeholder="Write some text..." ng-change="TextArea91_change()"></textarea>
+<button id="PushButton288" type="button"  class="btn btn-default [NAB.PushButton288_effect]" ng-style="NAB.PushButton288_style" ng-hide="NAB.PushButton288_hidden" ng-disabled="NAB.PushButton288_disabled" ng-click="PushButton288_click()">Home</button>
+<h1 id="Headline259" class="[NAB.Headline259_effect]" ng-style="NAB.Headline259_style" ng-hide="NAB.Headline259_hidden" ng-disabled="NAB.Headline259_disabled">Needs Attention&nbsp;(Rolling Document)</h1>
+<button id="PushButton290" type="button"  class="btn btn-default [NAB.PushButton290_effect]" ng-style="NAB.PushButton290_style" ng-hide="NAB.PushButton290_hidden" ng-disabled="NAB.PushButton290_disabled" ng-click="PushButton290_click()">Home</button>
+<h1 id="Headline285" class="[NAB.Headline285_effect]" ng-style="NAB.Headline285_style" ng-hide="NAB.Headline285_hidden" ng-disabled="NAB.Headline285_disabled">Na 1</h1>
+<button id="PushButton302" type="button"  class="btn btn-default [NAB.PushButton302_effect]" ng-style="NAB.PushButton302_style" ng-hide="NAB.PushButton302_hidden" ng-disabled="NAB.PushButton302_disabled" ng-click="PushButton302_click()">Read:</button>
+<button id="PushButton303" type="button"  class="btn btn-default [NAB.PushButton303_effect]" ng-style="NAB.PushButton303_style" ng-hide="NAB.PushButton303_hidden" ng-disabled="NAB.PushButton303_disabled" ng-click="PushButton303_click()">X</button>
+<textarea id="TextArea127" class="form-control [NAB.TextArea127_effect]" ng-style="NAB.TextArea127_style" ng-hide="NAB.TextArea127_hidden" ng-disabled="NAB.TextArea127_disabled" ng-model="$root.na2" placeholder="Write some text..." ng-change="TextArea127_change()"></textarea>
 </div>
 </script>
 <script type="text/ng-template" id="Page02">
