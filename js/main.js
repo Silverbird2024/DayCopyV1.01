@@ -1760,9 +1760,7 @@ NeoApp.controller("Dailysheet_Ctrl", function($scope,$rootScope,$route,$timeout,
 $App.NAB.PageNumber = 5;
 $App.NAB.PageID = "Dailysheet";
 $scope.PushButton273_click = function() {$scope.GotoPage( "Home" );};
-$scope.TextInput19_change = function() {localStorage.setItem("feb25week1",$App.feb25week1);};
 $scope.TextArea90_change = function() {localStorage.setItem("feb25week1aa",$App.feb25week1aa);};
-$scope.TextArea91_change = function() {localStorage.setItem("feb25week1d",$App.feb25week1d);};
 $scope.PushButton277_click = function() {neoTalkCancelSpeech();};
 $scope.PushButton278_click = function() {neoTalkSpeak($App.feb25week1a, "uk", 1, .9);};
 $scope.TextArea89_change = function() {localStorage.setItem("feb25week1a",$App.feb25week1a);};
