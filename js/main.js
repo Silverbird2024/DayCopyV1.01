@@ -1777,6 +1777,7 @@ $scope.TextArea85_change = function() {localStorage.setItem("feb25week1acp",$App
 $scope.TextArea86_change = function() {localStorage.setItem("feb25week1acph",$App.feb25week1acph);};
 $scope.TextArea103_change = function() {localStorage.setItem("feb25week1b",$App.feb25week1b);};
 $scope.TextArea18_change = function() {localStorage.setItem("Thisweek",$App.Thisweek);};
+$scope.TextArea131_change = function() {localStorage.setItem("ledgend",$App.ledgend);};
 });
 NeoApp.controller("PreLoad_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 6;
