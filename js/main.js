@@ -2282,7 +2282,7 @@ $scope.TextArea58_change = function() {localStorage.setItem("printerrep",$App.pr
 $scope.TextArea59_change = function() {localStorage.setItem("thunderrep",$App.thunderrep);};
 $scope.TextArea96_change = function() {localStorage.setItem("teslarep",$App.teslarep);};
 $scope.TextArea136_change = function() {localStorage.setItem("brickrep",$App.brickrep);};
-$scope.TextArea137_change = function() {localStorage.setItem("entroyrep",$App.entropyrep);};
+$scope.TextArea137_change = function() {localStorage.setItem("entropyrep",$App.entropyrep);};
 $scope.TextArea57_change = function() {localStorage.setItem("fishrep",$App.fishrep);};
 $scope.TextArea138_change = function() {localStorage.setItem("healthrep",$App.healthrep);};
 });
