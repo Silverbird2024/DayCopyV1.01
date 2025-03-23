@@ -41,6 +41,7 @@ $App.feb25week1 = localStorage.getItem("feb25week1");
 $App.feb25week1acp = localStorage.getItem("feb25week1acp");
 $App.feb25week1acph = localStorage.getItem("feb25week1acph");
 $App.Prayer1mainb = localStorage.getItem("Prayer1mainb");
+$App.Title12d = localStorage.getItem("Title12d");
 $App.Title12e = localStorage.getItem("Title12e");
 $App.Title12f = localStorage.getItem("Title12f");
 $App.Title12g = localStorage.getItem("Title12g");
