@@ -268,7 +268,7 @@ $App.feb25week1d = localStorage.getItem("feb25week1d");
 $App.feb25week1 = localStorage.getItem("feb25week1");
 $App.feb25week1acp = localStorage.getItem("feb25week1acp");
 $App.feb25week1acph = localStorage.getItem("feb25week1acph");
-$scope.GotoPage( "DailySheetNew" );};
+$scope.GotoPage( "Dailysheet" );};
 $scope.PushButton219_click = function() {$scope.GotoPage( "Save" );};
 $scope.Headline254_click = function() {$scope.GotoPage( "Dreamboard" );};
 $scope.PushButton172_click = function() {$scope.GotoPage( "Page02" );};
