@@ -312,6 +312,7 @@ $App.c20 = localStorage.getItem("c20");
 $App.Chapter01 = localStorage.getItem("Chapter01");
 $App.Chapter02 = localStorage.getItem("Chapter02");
 $App.Chapter03 = localStorage.getItem("Chapter03");
+$App.Chapter03n = localStorage.getItem("Chapter03n");
 $App.Chapter04 = localStorage.getItem("Chapter04");
 $App.Chapter05 = localStorage.getItem("Chapter05");
 $App.Chapter06 = localStorage.getItem("Chapter06");
@@ -1952,6 +1953,7 @@ $scope.PushButton333_click = function() {neoTalkCancelSpeech();};
 $scope.TextArea162_change = function() {localStorage.setItem("Chapter03",$App.Chapter03);};
 $scope.PushButton334_click = function() {$scope.GotoPage( "Home" );};
 $scope.PushButton418_click = function() {$scope.GotoPage( "BookMain" );};
+$scope.TextArea184_change = function() {localStorage.setItem("Chapter03n",$App.Chapter03n);};
 });
 NeoApp.controller("Chap04_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 10;
